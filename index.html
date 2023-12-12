@@ -8,14 +8,37 @@ body {
     background-color: #EFFBFF;
 }
 </style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
 
-<body>
+<body onLoad="MM_preloadImages('image/IMG_6306.JPG','image/IMG_6308.JPG','image/IMG_2541(20230911-114122).JPG','image/IMG_0019.JPG','image/IMG_5225(20231116-184312).JPG')">
 <table width="1400" border="1">
   <tbody>
     <tr>
-      <td colspan="3"><img src="image/3271700745173_.pic.jpg" width="" height="400" alt=""/></td>
-      <td><img src="image/WechatIMG309.jpg" width="" height="400" alt=""/></td>
+      <td colspan="3"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','image/IMG_6306.JPG',1)"><img src="image/3271700745173_.pic.jpg" alt="" width="" height="400" id="Image1"></a></td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','image/IMG_6308.JPG',1)"><img src="image/WechatIMG309.jpg" alt="" width="" height="400" id="Image2"></a></td>
     </tr>
     <tr>
       <td colspan="4" style="font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; font-size: 36px;">&nbsp;welcome to my world!!!&nbsp;</td>
@@ -26,16 +49,16 @@ body {
       <td rowspan="2" style="font-size: x-large; color: #0036ED;"><p><a href="树洞.html">树洞</a>&nbsp;</p></td>
     </tr>
     <tr>
-      <td style="font-size: 24px; color: #8E0002;">&nbsp;返回宿舍</td>
+      <td style="font-size: 24px; color: #8E0002;">&nbsp;<a href="https://guoweiting0916.gitee.io/dongjiu428">返回宿舍</a></td>
     </tr>
   </tbody>
 </table>
 	<table width="1400" border="1">
   <tbody>
     <tr>
-      <td><img src="image/3741701173262_.pic.jpg" width="" height="400" alt=""/></td>
-      <td><img src="image/3771701173407_.pic.jpg" width="" height="400" alt=""/></td>
-	  <td><img src="image/3751701173263_.pic.jpg" width="" height="400" alt=""/></td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','image/IMG_2541(20230911-114122).JPG',1)"><img src="image/3741701173262_.pic.jpg" alt="" width="" height="400" id="Image3"></a></td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','image/IMG_0019.JPG',1)"><img src="image/3771701173407_.pic.jpg" alt="" width="" height="400" id="Image4"></a></td>
+	  <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','image/IMG_5225(20231116-184312).JPG',1)"><img src="image/3751701173263_.pic.jpg" alt="" width="" height="400" id="Image6"></a></td>
     </tr>
   </tbody>
 </table>
